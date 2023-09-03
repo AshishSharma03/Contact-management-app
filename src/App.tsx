@@ -64,7 +64,7 @@ function App() {
         <SideDrawer toggleDrawer={toggleDrawer} isOpen={isOpen}/>
         <div className="flex bg-slate-100 flex-col w-full h-screen">
         <div className="h-[20vh]  p-4 flex justify-center items-center">
-          <button className="py-2 p-5 bg-white flex items -center gap-2 rounded-sm font-semibold hover:text-white hover:bg-blue-500 hover:shadow-xl" 
+          <button className="py-2 p-5 bg-white flex items-center gap-2 rounded-sm font-semibold hover:text-white hover:bg-blue-500 hover:shadow-xl" 
           onClick={()=>{setOpen(true)}} >
             <p>Create contact</p>
             <p><AiOutlineUserAdd/></p>
