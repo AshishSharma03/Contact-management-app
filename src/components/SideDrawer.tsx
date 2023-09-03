@@ -19,7 +19,7 @@ function SideDrawer({toggleDrawer,isOpen} : SideDrawerProps) {
   return (
     <div
       style={drawerStyles}
-      className={`min-h-[100vh] xs:absolute bg-white  min-w-200 inset-y-0 left-0 w-64 shadow-xl  text-white transform transition-transform ease-in-out`}
+      className={`min-h-[100vh] xs:absolute sm:aboslute md:relative  bg-white  min-w-200 inset-y-0 left-0 w-64 shadow-xl  text-white transform transition-transform ease-in-out`}
     >
       {/* Navigation Links */}
       <ul>
@@ -27,7 +27,7 @@ function SideDrawer({toggleDrawer,isOpen} : SideDrawerProps) {
         <hr className="border-t border-gray-200 text-black" />
         <li><a href="/" className="block p-5 hover:bg-blue-500 text-black font-semibold">Contact</a></li>
         <hr className="border-t border-gray-200  text-black" />
-        <li><a href="/" className="block p-5 hover:bg-blue-500 text-black font-semibold">Charts and Maps</a></li>
+        <li><a href="/map&chart" className="block p-5 hover:bg-blue-500 text-black font-semibold">Charts and Maps</a></li>
             
       </ul>
         
