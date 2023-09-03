@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import SideDrawer from './components/SideDrawer';
 import CreateContact from './components/CreateContact';
 import EditContact from './components/EditContact';
+import LineGraph from './components/LineGraphAll';
+import CountryMap from './components/CounrtyMap';
 
 
 
@@ -30,9 +32,10 @@ function MapCharts() {
       <div className="flex-1 flex">
         <SideDrawer toggleDrawer={toggleDrawer} isOpen={isOpen}/>
         <div className="flex bg-slate-100 flex-col w-full h-screen">
-
-      
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xl:grid-cols-2 gap-4">
+          <LineGraph/>
+          <CountryMap/>
+          </div>
         </div>
       
       </div>
